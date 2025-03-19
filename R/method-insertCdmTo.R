@@ -50,7 +50,7 @@ insertCdmTo.spark_cdm <- function(cdm, to) {
     cohortTables = cohorts,
     cdmVersion = omopgenerics::cdmVersion(cdm),
     cdmName = omopgenerics::cdmName(cdm),
-    .softValidation = TRUE,
+    .softValidation = FALSE,
     writePrefix = writePrefix
   )
 

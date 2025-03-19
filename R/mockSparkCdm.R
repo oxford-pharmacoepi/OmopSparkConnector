@@ -41,7 +41,6 @@ mockSparkCdm <- function(path) {
     cdmSchema = "omop",
     writeSchema = "results",
     cdmName = "mock local spark",
-    .softValidation = TRUE,
     writePrefix = "my_study_"
   )
 

@@ -24,7 +24,7 @@ Imports:
     dbplyr,
     dplyr,
     glue,
-    omopgenerics (>= 1.0.0),
+    omopgenerics (>= 1.1.1),
     purrr,
     rlang,
     sparklyr
